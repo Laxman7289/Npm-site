@@ -20,7 +20,7 @@ export const Header = () => {
         
       </div>
       <div className={css.img_backg}>
-        <img src='https://images.hdqwalls.com/wallpapers/bthumb/ios-11-stock-original-4k-ij.jpg'></img>
+        <img src='https://t4.ftcdn.net/jpg/04/82/03/07/360_F_482030733_TJDqWHmhDsXJzVt55KbwQMoShQDg5JKu.jpg'></img>
       </div>
     </div>
   )
