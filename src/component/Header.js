@@ -14,7 +14,7 @@ export const Header = () => {
     </div>
       <div className={css.nav}>
         <p className={css.item_left} >npm</p>
-        <input type="search" placeholder='Search packages' ></input>
+        <input type="search" placeholder='Search packages'></input>
         <a href='#' className={css.right_item_one}>sign Up</a>
         <a href='#' className={css.right_item}>sign In</a>
         
