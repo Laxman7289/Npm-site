@@ -19,9 +19,8 @@ export const Header = () => {
         <a href='#' className={css.right_item}>sign In</a>
         
       </div>
-      <div className={css.img_backg}>
-        <img src='https://t4.ftcdn.net/jpg/04/82/03/07/360_F_482030733_TJDqWHmhDsXJzVt55KbwQMoShQDg5JKu.jpg'></img>
-      </div>
+      <div className={css.togglebtn}><i className="fa fa-bars" ></i></div>
+
     </div>
   )
 }

@@ -1,4 +1,4 @@
-import React from 'react'
+    import React from 'react'
 import Button from '@mui/material/Button'
 import css from "./Details.module.css"
 
@@ -26,7 +26,7 @@ const Details = () => {
                 Learn about Pro
             </Button>
         </div>
-      
+
     </div>
   )
 }
