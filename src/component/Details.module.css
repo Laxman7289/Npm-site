@@ -41,12 +41,12 @@
     border: 1px groove yellow;
     border-radius: 0px 10px 0px 10px;
     margin-right: 20px;
-    background-color: rgb(101, 236, 185);
+    background-color: rgb(241, 133, 196);
     color: black;
 }
 .btn .btn_second{
     border: 1px groove rgb(250, 250, 231);
     color: black;
     border-radius: 0px 10px 0px 10px;
-    background-color: rgb(112, 112, 245, .8);
+    background-color: rgba(253, 154, 89, 0.8);
 }
