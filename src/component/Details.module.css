@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     flex-wrap: wrap;
@@ -13,23 +13,36 @@
     background-size: cover;
 }
 
-.data_heading{
+.data {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    align-items: center;
+    background-image: url(https://t4.ftcdn.net/jpg/04/82/03/07/360_F_482030733_TJDqWHmhDsXJzVt55KbwQMoShQDg5JKu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.data_heading {
 
     font-size: 50px;
     object-fit: contain;
     text-align: center;
 }
-.data_content{
+
+.data_content {
     font-size: larger;
     object-fit: contain;
     text-align: center;
     padding-top: 20px;
 }
-.data_content h4{
-    font-size:25px;
-    font-weight:bolder;
+
+.data_content h4 {
+    font-size: 25px;
+    font-weight: bolder;
 }
-.data_content p{
+
+.data_content p {
     padding-top: 20px;
 
 }
@@ -38,14 +51,16 @@
     padding-bottom: 10px;
 
 }
-.btn .btn_one{
+
+.btn .btn_one {
     border: 1px groove yellow;
     border-radius: 0px 10px 0px 10px;
     margin-right: 20px;
     background-color: rgb(241, 133, 196);
     color: black;
 }
-.btn .btn_second{
+
+.btn .btn_second {
     border: 1px groove rgb(250, 250, 231);
     color: black;
     border-radius: 0px 10px 0px 10px;
@@ -98,7 +113,7 @@
     justify-content: flex-start;
     padding-top: 20px;
     padding-left: 40px;
-    
+
 }
  ul li{
     list-style: none;

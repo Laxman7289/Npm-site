@@ -55,7 +55,7 @@ const Details = () => {
             </div> */}
             <div className={css.footer}>
                 <div className={css.footer_0}>
-                    
+
                 </div>
                 <div className={css.footer_box1}>
                     <p className={css.footer_botom}>Support</p>

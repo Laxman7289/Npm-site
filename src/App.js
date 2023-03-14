@@ -1,7 +1,7 @@
 import React from 'react'
 import Details from './component/Details'
 import {Header} from "./component/Header"
-import { Login } from './component/Login'
+// import { Login } from './component/Login'
 
 
 
