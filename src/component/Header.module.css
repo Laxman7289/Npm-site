@@ -16,12 +16,9 @@
 
 .header ul li {
     padding: 0 1.8%;
-    font-size: large;
+    font-size: x-large;
 }
-img    {
-    height: 4vh;
-    width: 3vw;
-}
+
 
 .left {
     flex: 1;
@@ -43,7 +40,7 @@ img    {
 .nav .item_left{
     font-family: 'Smokum', cursive;
     font-weight: 800;
-    font-size:30px;
+    font-size:35px;
     padding:0.6% ;
 }   
 
@@ -62,8 +59,5 @@ img    {
 
 }
 
-.img_backg img{
-    height: 75vh;
-    width: 100vw;
-    object-fit: cover;
-}
+
+
