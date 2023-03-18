@@ -1,17 +1,34 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import React from 'react'
 import Details from './component/Details'
-import {Header} from "./component/Header"
-// import { Login } from './component/Login'
+import { Header } from "./component/Header"
+import { Login } from './component/Login'
 
 
 
 export const App = () => {
   return (
-    <div>
-        <Header/>
-        <Details/>
-        {/* <Login/> */}
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<>
+          <Header />
+          <Details />
+        </>} />
+        <Route path='/login' element={<Login />} />
+
+
+      </Routes>
+    </BrowserRouter>
+
+
+
+
+
+    // <div>
+    //     <Header/>
+    //     <Details/>
+    //     <Login/>
+    // </div>
   )
 }
 

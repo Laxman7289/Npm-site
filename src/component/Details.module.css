@@ -1,24 +1,16 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     flex-wrap: wrap;
 }
-.data{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 30px;
-    background-image: url(https://t4.ftcdn.net/jpg/04/82/03/07/360_F_482030733_TJDqWHmhDsXJzVt55KbwQMoShQDg5JKu.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 
 .data {
     display: flex;
     flex-direction: column;
-    border: 1px solid;
     align-items: center;
-    background-image: url(https://t4.ftcdn.net/jpg/04/82/03/07/360_F_482030733_TJDqWHmhDsXJzVt55KbwQMoShQDg5JKu.jpg);
+    background-image: url(https://wallpapers.com/images/hd/red-and-blue-abstract-backgrounds-t8juy3h33yw8bq5q.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -60,12 +52,15 @@
     color: black;
 }
 
-.btn .btn_second {
+.btn  .btn_second  {
     border: 1px groove rgb(250, 250, 231);
+    margin-right: 20px;
     color: black;
     border-radius: 0px 10px 0px 10px;
     background-color: rgba(253, 154, 89, 0.8);
+    text-decoration: none;
 }
+
 
 .iconimg{
     display: flex;
@@ -87,27 +82,30 @@
     padding-bottom: 100px;
     border-bottom: 1px solid;
 }
-/* .icons{
-    display: flex;
-    flex-direction: column;
-}
-  .icons_one, .icons_second img{
-        width: 5%;
-        height: 5%;
-        
-} */
+
 .footer{
     display: flex;
-    /* width: 10%; */
 }
 .footer_botom{
     font-size: larger;
     font-weight: 800;
     padding-bottom: 20px;
 }
+.footer_box0{
+    width: 10%;
+
+}
+ .imglink{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 1em 0 0 1em;
+}
+
+
 .footer_box1, .footer_box2, .footer_box3{
     font-size: large;
-    width: 30%;
+    width: 25%;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;

@@ -1,23 +1,37 @@
 import React from 'react'
-// import css from "./Login.module.css"
+import css from "./Login.module.css"
 
 export const Login = () => {
     return (
-        <div >
-            <p>npm</p>
-            <div>
-                <div>
-                    <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6LXNan-fM4zhBNBHjbME6_h43Amn97t2yiQ&usqp=CAU' alt='logo'></img>
-                </div>
-            </div>
-            <div >
-                <h4>Sign In</h4>
-                <label htmlFor="">Username</label>
-                <input type="text"/>
-                <label htmlFor="">Password</label>
-                <input type="password"/>
-            </div>
+        <div className={css.backimg} >
+            <div className={css.container}>
+                <div className={css.logindata}>
+                    <h2>Login</h2>
+                    <form>
+                        <div className={css.input_box}>
+                            <span className={css.icons}><ion-icon name="mail-outline"></ion-icon></span>
+                            <input type="email"></input>
+                            <label>E-mail</label>
+                        </div>
+                        <div className={css.input_box}>
+                            <span className={css.icons}><ion-icon name="lock-closed-outline"></ion-icon></span>
+                            <input type="password"></input>
+                            <label>Password</label>
+                        </div>
+                        <div className={css.registration_box}>
+                            <label> <input type="checkbox" ></input>Registration</label>
+                            <a href='#'>Forgot Password?</a>
+                        </div>
+                        <button type='submit'>Login</button>
 
+                        <div className={css.registration_link}>
+                            <p>Don't have an account?<a href='#'>Register</a></p>
+                        </div>
+                    </form>
+                </div>
+
+
+            </div>
         </div>
     )
 }

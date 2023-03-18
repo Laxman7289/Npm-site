@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '@mui/material/Button'
 import css from "./Details.module.css"
+import { Link } from 'react-router-dom'
 
 
 const Details = () => {
@@ -25,9 +26,11 @@ const Details = () => {
                     <Button variant="text" color="primary" className={css.btn_one}>
                         sign up for free
                     </Button>
-                    <Button variant="text" color="primary" className={css.btn_second} >
+                    <Button className={css.btn_second}> <Link to='/Pro'  >  
                         Learn about Pro
-                    </Button>
+                    </Link></Button>
+                   
+                   
                 </div>
             </div>
             <div className={css.iconimg}>
@@ -49,13 +52,13 @@ const Details = () => {
                 </p>
             </div>
 
-            {/* <div className={css.icons}>
-                <img className={css.icons_one} src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_f_J4xh7bHZyMHcS02_GK695rB6nDQSffcg&usqp=CAU'/>
-                <img className={css.icons_second} src='https://w7.pngwing.com/pngs/914/758/png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail.png'/>
-            </div> */}
+            
             <div className={css.footer}>
-                <div className={css.footer_0}>
-
+                <div className={css.footer_box0}>
+                   
+                    <a href='https://github.com/npm'> <img className={css.imglink} src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeHQaXLcBuHx11zE7kUDrd012_fOyPTrdJ1A&usqp=CAU'/></a>
+                    
+                    <a href='https://github.com/'><img className={css.imglink} src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'/></a>
                 </div>
                 <div className={css.footer_box1}>
                     <p className={css.footer_botom}>Support</p>
@@ -85,7 +88,6 @@ const Details = () => {
                         <li>Privacy</li>
                     </ul>
                 </div>
-
             </div>
         </>
     )
