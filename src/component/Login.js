@@ -10,12 +10,12 @@ export const Login = () => {
                     <form>
                         <div className={css.input_box}>
                             <span className={css.icons}><ion-icon name="mail-outline"></ion-icon></span>
-                            <input type="email"></input>
+                            <input type="email" required></input>
                             <label>E-mail</label>
                         </div>
                         <div className={css.input_box}>
                             <span className={css.icons}><ion-icon name="lock-closed-outline"></ion-icon></span>
-                            <input type="password"></input>
+                            <input type="password" required></input>
                             <label>Password</label>
                         </div>
                         <div className={css.registration_box}>

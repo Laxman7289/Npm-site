@@ -40,21 +40,32 @@
 }
 .input_box label{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 5px;
-    transform: translateX(-50%);
+    transform: translatey(-50%);
     font-size: 1em;
     color: rgb(36, 35, 35);
-    font-weight: 500;
+    font-weight: 600;
     pointer-events: none;
+    transition: .5s;
 }
+.input_box input:focus~label,
+.input_box input:valid~label{
+    top: -5px;
+}
+
 .input_box input{
     height: 100%;
     width: 100%;
     border: none;
     background: transparent;
+    outline: none;
+    font-size: 1em;
+    font-weight: 600;
 }
 .input_box .icons{
     position: absolute;
     right: 8px ;
+    line-height: 40px;
+    font-size: 1em;
 }
