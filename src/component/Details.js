@@ -34,7 +34,7 @@ const Details = () => {
                 </div>
             </div>
             <div className={css.iconimg}>
-                <img src='https://static.npmjs.com/attachments/ck3uweazy72ye8874y9kkxnx1-gak.png' />
+                <img src='square.png' />
             </div>
             <div className={css.heading2}>
                 <h2>Bring the best of open</h2>
