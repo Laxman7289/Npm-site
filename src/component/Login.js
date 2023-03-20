@@ -22,7 +22,8 @@ export const Login = () => {
                             <label> <input type="checkbox" ></input>Registration</label>
                             <a href='#'>Forgot Password?</a>
                         </div>
-                        <button type='submit'>Login</button>
+                        
+                        <button className={css.btn} type='submit'>Login</button>
 
                         <div className={css.registration_link}>
                             <p>Don't have an account?<a href='#'>Register</a></p>

@@ -26,7 +26,7 @@ const Details = () => {
                     <Button variant="text" color="primary" className={css.btn_one}>
                         sign up for free
                     </Button>
-                    <Button className={css.btn_second}> <Link to='/Pro'  >  
+                    <Button className={css.btn_second}> <Link to='/Pro' className={css.btn_1} >  
                         Learn about Pro
                     </Link></Button>
                    

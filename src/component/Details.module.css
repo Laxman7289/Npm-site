@@ -13,14 +13,17 @@
     background-image: url(https://wallpapers.com/images/hd/red-and-blue-abstract-backgrounds-t8juy3h33yw8bq5q.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    color: rgba(201, 199, 236, 0.732);
+    height: 30rem;
 }
 
 .data_heading {
-
+    color: rgb(225, 66, 18);
     font-size: 50px;
     object-fit: contain;
     text-align: center;
 }
+
 
 .data_content {
     font-size: larger;
@@ -31,6 +34,7 @@
 
 .data_content h4 {
     font-size: 25px;
+    color: rgb(219, 14, 14);
     font-weight: bolder;
 }
 
@@ -41,10 +45,10 @@
 .btn{
     padding-top: 20px ;
     padding-bottom: 10px;
-
 }
 
 .btn .btn_one {
+    font-weight: 600;
     border: 1px groove yellow;
     border-radius: 0px 10px 0px 10px;
     margin-right: 20px;
@@ -54,13 +58,21 @@
 
 .btn  .btn_second  {
     border: 1px groove rgb(250, 250, 231);
+    font-weight: 600;
     margin-right: 20px;
     color: black;
     border-radius: 0px 10px 0px 10px;
     background-color: rgba(253, 154, 89, 0.8);
-    text-decoration: none;
 }
-
+ .btn_second .btn_1{
+    text-decoration: none;
+    color: rgb(20, 20, 21);
+}
+.btn_one:hover{
+    color: aqua;
+}.btn_second :hover{
+    color: aqua;
+}
 
 .iconimg{
     display: flex;

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,300&family=Josefin+Sans&family=Libre+Baskerville&family=Lobster&family=Oswald&family=PT+Serif&family=Poppins:wght@100;300&family=Teko:wght@300&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -5,7 +6,7 @@
 }
 .backimg {
     height: 100vh;
-    background-image: url('https://img.freepik.com/premium-photo/abstract-plexus-background-with-connected-lines-dots-wave-flow-plexus-geometric-effect-big-data_230610-1274.jpg?w=2000' );
+    background-image: url('https://static.vecteezy.com/system/resources/previews/001/218/592/non_2x/background-wallpaper-with-polygons-in-gradient-colors-vector.jpg' );
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,4 +69,44 @@
     right: 8px ;
     line-height: 40px;
     font-size: 1em;
+}
+
+.registration_box {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font: 1em sans-serif;
+}
+.registration_box input{
+    margin-right: 5px;
+}
+.registration_box a{
+    text-decoration: none;
+    color: black;
+}
+.registration_box a:hover{
+    color: rgb(236, 26, 26);
+    border-bottom: 2px ridge rgb(10, 9, 9);
+}
+
+.btn {
+    width: 100%;
+    padding: 8px;
+    font-size: 1em;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.registration_link {
+    font-weight: 400;
+    font: 1em sans-serif;
+    margin-top: 8px;
+}
+.registration_link a{
+    margin-left: 2.5em;
+    text-decoration: none;
+    color: black;
+}
+.registration_link a:hover{
+    color: rgb(236, 26, 26);
+    border-bottom: 2px ridge rgb(10, 9, 9);
 }

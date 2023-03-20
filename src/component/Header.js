@@ -2,7 +2,6 @@ import React from 'react'
 import css from "./Header.module.css"
 import { Link } from 'react-router-dom'
 
-
 export const Header = () => {
   return (
     <div className={css.container}>
