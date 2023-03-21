@@ -9,6 +9,7 @@
 .data {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-image: url(https://wallpapers.com/images/hd/red-and-blue-abstract-backgrounds-t8juy3h33yw8bq5q.jpg);
     background-size: cover;
@@ -18,7 +19,7 @@
 }
 
 .data_heading {
-    color: rgb(225, 66, 18);
+    color:  rgb(219, 14, 14);
     font-size: 50px;
     object-fit: contain;
     text-align: center;
