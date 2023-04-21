@@ -10,7 +10,7 @@ export const Login = () => {
                     <form>
                         <div className={css.input_box}>
                             <span className={css.icons}><ion-icon name="mail-outline"></ion-icon></span>
-                            <input type="email" required></input>
+                            <input type="email" required pattern='[a-z]*' ></input>
                             <label>E-mail</label>
                         </div>
                         <div className={css.input_box}>
@@ -24,6 +24,7 @@ export const Login = () => {
                         </div>
                         
                         <button className={css.btn} type='submit'>Login</button>
+                      
 
                         <div className={css.registration_link}>
                             <p>Don't have an account?<a href='#'>Register</a></p>
