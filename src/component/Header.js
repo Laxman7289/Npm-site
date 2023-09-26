@@ -1,10 +1,10 @@
 import React from 'react'
 import css from "./Header.module.css"
 import { Link } from 'react-router-dom'
-import Teams from "./Teams"
-import Pro from './Pro'
-import Pricing from './Pricing'
-import Documentation from './Documentation'
+// import Teams from "./Teams"
+// import Pro from './Pro'
+// import Pricing from './Pricing'
+// import Documentation from './Documentation'
 
 export const Header = () => {
   return (
